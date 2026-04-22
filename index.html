@@ -1,50 +1,42 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
-
 <head>
-  <!-- ══════════════════════════════════════════
-       META CHARSET & VIEWPORT
-  ══════════════════════════════════════════ -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <!-- ══════════════════════════════════════════
-       SEO PRIMARIO
-  ══════════════════════════════════════════ -->
-  <title>Café Ámbar | Especialidad & Origen · Lima, Perú</title>
-  <meta name="description"
-    content="Café Ámbar es un espacio de especialidad en el corazón de Lima. Granos de origen único, métodos de extracción precisos y un ambiente que invita a quedarse." />
-  <meta name="keywords"
-    content="café especialidad Lima, café de origen, barista Lima, specialty coffee Perú, café ámbar" />
+  <title>Café Ámbar | Especialidad y Origen | Lima, Perú</title>
+  <meta
+    name="description"
+    content="Café Ámbar es un espacio de especialidad en el corazón de Lima. Granos de origen único, métodos de extracción precisos y un ambiente que invita a quedarse."
+  />
+  <meta
+    name="keywords"
+    content="café especialidad Lima, café de origen, barista Lima, specialty coffee Perú, café ámbar"
+  />
   <meta name="author" content="Café Ámbar" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://cafeambar.pe/" />
 
-  <!-- ══════════════════════════════════════════
-       OPEN GRAPH (Facebook / WhatsApp)
-  ══════════════════════════════════════════ -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://cafeambar.pe/" />
-  <meta property="og:title" content="Café Ámbar | Especialidad & Origen" />
-  <meta property="og:description"
-    content="Granos de origen único, métodos de extracción precisos y un ambiente que invita a quedarse." />
+  <meta property="og:title" content="Café Ámbar | Especialidad y Origen" />
+  <meta
+    property="og:description"
+    content="Granos de origen único, métodos de extracción precisos y un ambiente que invita a quedarse."
+  />
   <meta property="og:image" content="https://cafeambar.pe/og-image.jpg" />
   <meta property="og:locale" content="es_PE" />
   <meta property="og:site_name" content="Café Ámbar" />
 
-  <!-- ══════════════════════════════════════════
-       TWITTER CARD
-  ══════════════════════════════════════════ -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Café Ámbar | Especialidad & Origen" />
-  <meta name="twitter:description"
-    content="Granos de origen único, métodos de extracción precisos y un ambiente que invita a quedarse." />
+  <meta name="twitter:title" content="Café Ámbar | Especialidad y Origen" />
+  <meta
+    name="twitter:description"
+    content="Granos de origen único, métodos de extracción precisos y un ambiente que invita a quedarse."
+  />
   <meta name="twitter:image" content="https://cafeambar.pe/og-image.jpg" />
 
-  <!-- ══════════════════════════════════════════
-       JSON-LD STRUCTURED DATA
-  ══════════════════════════════════════════ -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -60,88 +52,58 @@
       "addressCountry": "PE"
     },
     "openingHours": ["Mo-Fr 07:00-21:00", "Sa-Su 08:00-22:00"],
-    "servesCuisine": "Café de Especialidad",
+    "servesCuisine": "Café de especialidad",
     "priceRange": "$$"
   }
   </script>
 
-  <!-- ══════════════════════════════════════════
-       FUENTES — Playfair Display + Jost
-  ══════════════════════════════════════════ -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap"
-    rel="stylesheet" />
+    rel="stylesheet"
+  />
 
   <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-
-  <!-- ═══════════════════════════════════════════
-       SKIP LINK — Accesibilidad teclado / lectores
-  ═══════════════════════════════════════════ -->
   <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
 
-  <!-- ═══════════════════════════════════════════
-       HEADER — banner landmark
-  ═══════════════════════════════════════════ -->
   <header class="site-header" role="banner">
     <div class="container header-inner">
-
-      <!-- Logo: enlace semántico con aria-label -->
-      <a href="/" class="logo" aria-label="Café Ámbar — Ir al inicio">
-        <span class="logo-mark" aria-hidden="true">◈</span>
+      <a href="/" class="logo" aria-label="Café Ámbar - Ir al inicio">
+        <span class="logo-mark" aria-hidden="true">◆</span>
         <span class="logo-name">Café <strong>Ámbar</strong></span>
       </a>
 
-      <!-- Botón hamburguesa (mobile) con ARIA -->
       <button
         class="nav-toggle"
         aria-controls="primary-nav"
         aria-expanded="false"
         aria-label="Abrir menú de navegación"
-        type="button">
+        type="button"
+      >
         <span class="bar" aria-hidden="true"></span>
         <span class="bar" aria-hidden="true"></span>
         <span class="bar" aria-hidden="true"></span>
       </button>
 
-      <!-- NAV — landmark de navegación -->
       <nav id="primary-nav" class="primary-nav" aria-label="Navegación principal">
         <ul role="list">
           <li><a href="#origen">Origen</a></li>
           <li><a href="#menu">Carta</a></li>
-          <li><a href="#metodos">Métodos</a></li>
+          <li><a href="#origen">Proceso</a></li>
           <li><a href="#nosotros">Nosotros</a></li>
           <li><a href="#contacto" class="nav-cta">Visítanos</a></li>
         </ul>
       </nav>
-
     </div>
   </header>
 
-  <!-- ═══════════════════════════════════════════
-       MAIN — landmark principal
-  ═══════════════════════════════════════════ -->
   <main id="main-content" tabindex="-1">
-
-    <!-- ────────────────────────────────────────
-         SECCIÓN 1 · HERO
-    ──────────────────────────────────────── -->
     <section class="hero" aria-labelledby="hero-heading">
-
-      <!-- Fondos decorativos — aria-hidden para no contaminar el árbol semántico -->
-      <div class="hero-bg" aria-hidden="true">
-        <div class="blob blob-1"></div>
-        <div class="blob blob-2"></div>
-        <div class="grain-overlay"></div>
-      </div>
-
       <div class="container hero-content">
-
-        <p class="eyebrow" aria-label="Subtítulo">Lima · Café de Especialidad</p>
+        <p class="eyebrow" aria-label="Subtítulo">Lima · Café de especialidad</p>
 
         <h1 id="hero-heading" class="hero-title">
           El café<br />
@@ -154,132 +116,101 @@
           Cada taza cuenta la historia del caficultor que la hizo posible.
         </p>
 
-        <!-- CTA buttons — display: flex aplicado en CSS -->
         <div class="hero-actions" role="group" aria-label="Acciones principales">
           <a href="#menu" class="btn btn-primary">Ver la carta</a>
           <a href="#origen" class="btn btn-ghost">Nuestros orígenes</a>
         </div>
 
-        <!-- Badge decorativo con position: absolute bien aplicado
-             (el .hero-content tiene position: relative) -->
-        <div class="hero-badge" aria-hidden="true" role="presentation">
-          <svg viewBox="0 0 120 120" width="120" height="120" aria-hidden="true">
-            <defs>
-              <path id="circle-path"
-                d="M 60,60 m -37,0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" />
-            </defs>
-            <text class="badge-text">
-              <textPath href="#circle-path" startOffset="0%">
-                Specialty Coffee · Since 2018 · Lima Perú ·
-              </textPath>
-            </text>
-            <text x="60" y="65" text-anchor="middle" class="badge-center">◈</text>
-          </svg>
-        </div>
-
+        <div class="hero-badge" aria-hidden="true" role="presentation">Desde 2018</div>
       </div>
-
-      <!-- Scroll cue decorativo -->
-      <a href="#origen" class="scroll-cue" aria-label="Ir a la sección Origen">
-        <span class="scroll-line" aria-hidden="true"></span>
-      </a>
-
     </section>
 
-    <!-- ────────────────────────────────────────
-         SECCIÓN 2 · ORIGEN
-    ──────────────────────────────────────── -->
     <section id="origen" class="section origin-section" aria-labelledby="origen-heading">
-      <div class="container origin-grid">
-
-        <!-- Texto descriptivo -->
-        <div class="origin-text">
-          <span class="section-label" aria-hidden="true">Trazabilidad</span>
+      <div class="container">
+        <header class="section-header">
+          <span class="section-label" aria-hidden="true">Origen y proceso</span>
           <h2 id="origen-heading">Del caficultor<br /><em>a tu taza</em></h2>
-          <p>
-            Trabajamos directamente con productores de Amazonas, Puno y Cajamarca —
-            garantizando precios justos y cafés de perfil único. Cada bolsa lleva
-            el nombre del agricultor que la cultivó.
+          <p class="section-sub">
+            Elegimos granos peruanos, los tostamos con cuidado y extraemos cada bebida con precisión.
           </p>
-          <a href="#nosotros" class="link-arrow">
-            Conoce más <span aria-hidden="true">→</span>
-          </a>
-        </div>
+        </header>
 
-        <!-- Tarjetas de origen — Grid responsivo -->
-        <div class="origin-cards" role="list" aria-label="Cafés de origen">
-
+        <div class="origin-cards" role="list" aria-label="Resumen de origen y proceso">
           <article class="origin-card" role="listitem">
             <div class="card-line" aria-hidden="true"></div>
-            <span class="card-region">Amazonas</span>
-            <h3 class="card-name">Villa Rica Natural</h3>
-            <p class="card-notes">frambuesa · chocolate · miel</p>
-            <dl class="card-meta">
-              <div class="meta-row"><dt>Altitud</dt><dd>1 800 msnm</dd></div>
-              <div class="meta-row"><dt>Proceso</dt><dd>Natural</dd></div>
-              <div class="meta-row"><dt>Variedad</dt><dd>Caturra</dd></div>
-            </dl>
+            <span class="card-region">Origen</span>
+            <h3 class="card-name">Productores locales</h3>
+            <p class="card-notes">Amazonas, Puno y Cajamarca</p>
+            <p>Trabajamos con cafés de trazabilidad clara y perfiles limpios.</p>
           </article>
 
-          <article class="origin-card card-featured" role="listitem" aria-label="Café destacado de la temporada">
+          <article class="origin-card card-featured" role="listitem">
             <div class="card-line" aria-hidden="true"></div>
-            <!-- Badge absoluto bien aplicado — el .origin-card tiene position:relative -->
-            <span class="card-badge">Temporada</span>
-            <span class="card-region">Puno</span>
-            <h3 class="card-name">Inambari Washed</h3>
-            <p class="card-notes">cítrico · durazno · té negro</p>
-            <dl class="card-meta">
-              <div class="meta-row"><dt>Altitud</dt><dd>2 050 msnm</dd></div>
-              <div class="meta-row"><dt>Proceso</dt><dd>Lavado</dd></div>
-              <div class="meta-row"><dt>Variedad</dt><dd>Geisha</dd></div>
-            </dl>
+            <span class="card-badge">Clave</span>
+            <span class="card-region">Proceso</span>
+            <h3 class="card-name">Tueste y extracción</h3>
+            <p class="card-notes">control, balance y consistencia</p>
+            <p>Ajustamos molienda, tiempo y temperatura para respetar el sabor de cada grano.</p>
           </article>
 
           <article class="origin-card" role="listitem">
             <div class="card-line" aria-hidden="true"></div>
-            <span class="card-region">Cajamarca</span>
-            <h3 class="card-name">Jaén Honey</h3>
-            <p class="card-notes">caramelo · nuez · fruta seca</p>
-            <dl class="card-meta">
-              <div class="meta-row"><dt>Altitud</dt><dd>1 650 msnm</dd></div>
-              <div class="meta-row"><dt>Proceso</dt><dd>Honey</dd></div>
-              <div class="meta-row"><dt>Variedad</dt><dd>Bourbon</dd></div>
-            </dl>
+            <span class="card-region">Resultado</span>
+            <h3 class="card-name">Una taza mejor hecha</h3>
+            <p class="card-notes">dulzor, aroma y limpieza</p>
+            <p>Servimos café con intención, desde el origen hasta el momento final.</p>
           </article>
-
         </div>
       </div>
     </section>
 
-    <!-- ────────────────────────────────────────
-         SECCIÓN 3 · MENÚ / CARTA
-    ──────────────────────────────────────── -->
     <section id="menu" class="section menu-section" aria-labelledby="menu-heading">
       <div class="container">
-
         <header class="section-header">
           <span class="section-label" aria-hidden="true">Carta</span>
           <h2 id="menu-heading">Lo que preparamos</h2>
           <p class="section-sub">Métodos de extracción precisos para cada perfil de sabor.</p>
         </header>
 
-        <!-- Tabs con ARIA completo -->
         <div class="menu-tabs" role="tablist" aria-label="Categorías de bebidas">
-          <button class="tab-btn active" role="tab" aria-selected="true"
-            aria-controls="panel-espresso" id="tab-espresso" type="button">Espresso</button>
-          <button class="tab-btn" role="tab" aria-selected="false"
-            aria-controls="panel-filtro" id="tab-filtro" type="button">Filtro</button>
-          <button class="tab-btn" role="tab" aria-selected="false"
-            aria-controls="panel-frio" id="tab-frio" type="button">Frío</button>
+          <button
+            class="tab-btn active"
+            role="tab"
+            aria-selected="true"
+            aria-controls="panel-espresso"
+            id="tab-espresso"
+            type="button"
+          >
+            Espresso
+          </button>
+          <button
+            class="tab-btn"
+            role="tab"
+            aria-selected="false"
+            aria-controls="panel-filtro"
+            id="tab-filtro"
+            type="button"
+          >
+            Filtro
+          </button>
+          <button
+            class="tab-btn"
+            role="tab"
+            aria-selected="false"
+            aria-controls="panel-frio"
+            id="tab-frio"
+            type="button"
+          >
+            Frío
+          </button>
         </div>
 
-        <!-- Panel Espresso -->
         <div id="panel-espresso" role="tabpanel" aria-labelledby="tab-espresso" class="menu-panel active">
           <ul class="menu-list" role="list">
             <li class="menu-item">
               <div class="menu-item-info">
                 <h3>Espresso Solo</h3>
-                <p>Blend de temporada, extracción 25–30 seg.</p>
+                <p>Blend de temporada, extracción de 25 a 30 segundos.</p>
               </div>
               <span class="menu-price" aria-label="Precio: 8 soles">S/ 8</span>
             </li>
@@ -293,7 +224,7 @@
             <li class="menu-item">
               <div class="menu-item-info">
                 <h3>Flat White</h3>
-                <p>Doble ristretto con micro-foam sedoso.</p>
+                <p>Doble ristretto con microespuma sedosa.</p>
               </div>
               <span class="menu-price" aria-label="Precio: 13 soles">S/ 13</span>
             </li>
@@ -306,7 +237,7 @@
             </li>
             <li class="menu-item">
               <div class="menu-item-info">
-                <h3>Latte de Especialidad</h3>
+                <h3>Latte de especialidad</h3>
                 <p>Con origen de temporada seleccionado por el barista.</p>
               </div>
               <span class="menu-price" aria-label="Precio: 15 soles">S/ 15</span>
@@ -314,7 +245,6 @@
           </ul>
         </div>
 
-        <!-- Panel Filtro -->
         <div id="panel-filtro" role="tabpanel" aria-labelledby="tab-filtro" class="menu-panel" hidden>
           <ul class="menu-list" role="list">
             <li class="menu-item">
@@ -327,7 +257,7 @@
             <li class="menu-item">
               <div class="menu-item-info">
                 <h3>Aeropress</h3>
-                <p>Cuerpo pleno, acidez controlada.</p>
+                <p>Cuerpo pleno y acidez controlada.</p>
               </div>
               <span class="menu-price" aria-label="Precio: 14 soles">S/ 14</span>
             </li>
@@ -341,7 +271,6 @@
           </ul>
         </div>
 
-        <!-- Panel Frío -->
         <div id="panel-frio" role="tabpanel" aria-labelledby="tab-frio" class="menu-panel" hidden>
           <ul class="menu-list" role="list">
             <li class="menu-item">
@@ -353,7 +282,7 @@
             </li>
             <li class="menu-item">
               <div class="menu-item-info">
-                <h3>Espresso Tónico</h3>
+                <h3>Espresso tónico</h3>
                 <p>Espresso sobre agua tónica y hielo. Refrescante.</p>
               </div>
               <span class="menu-price" aria-label="Precio: 15 soles">S/ 15</span>
@@ -367,73 +296,25 @@
             </li>
           </ul>
         </div>
-
       </div>
     </section>
 
-    <!-- ────────────────────────────────────────
-         SECCIÓN 4 · MÉTODOS
-    ──────────────────────────────────────── -->
-    <section id="metodos" class="section metodos-section" aria-labelledby="metodos-heading">
-      <div class="container">
-
-        <header class="section-header section-header--light">
-          <span class="section-label" aria-hidden="true">Proceso</span>
-          <h2 id="metodos-heading">Cómo extraemos<br /><em>lo mejor de cada grano</em></h2>
-        </header>
-
-        <div class="metodos-grid" role="list" aria-label="Métodos de extracción">
-
-          <div class="metodo-item" role="listitem">
-            <div class="metodo-icon" aria-hidden="true">01</div>
-            <h3>Selección</h3>
-            <p>Solo granos SCA 84+ pasan a nuestro tostador. Catamos cada lote antes de aprobarlo.</p>
-          </div>
-
-          <div class="metodo-item" role="listitem">
-            <div class="metodo-icon" aria-hidden="true">02</div>
-            <h3>Tueste Artesanal</h3>
-            <p>Perfil de tueste medio-claro que respeta la acidez natural y las notas de origen.</p>
-          </div>
-
-          <div class="metodo-item" role="listitem">
-            <div class="metodo-icon" aria-hidden="true">03</div>
-            <h3>Extracción Precisa</h3>
-            <p>Temperatura, tiempo y dosis calibrados diariamente. El detalle hace la diferencia.</p>
-          </div>
-
-          <div class="metodo-item" role="listitem">
-            <div class="metodo-icon" aria-hidden="true">04</div>
-            <h3>Tu Taza</h3>
-            <p>Cada bebida preparada con intención y servida en el momento justo de temperatura.</p>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ────────────────────────────────────────
-         SECCIÓN 5 · NOSOTROS (con ASIDE)
-    ──────────────────────────────────────── -->
     <section id="nosotros" class="section about-section" aria-labelledby="nosotros-heading">
       <div class="container about-layout">
-
         <div class="about-main">
           <span class="section-label" aria-hidden="true">Nosotros</span>
           <h2 id="nosotros-heading">Un espacio hecho<br /><em>para el café</em></h2>
           <p>
-            Fundado en 2018 por un grupo de baristas con pasión por el origen, Café Ámbar
-            nació con la convicción de que Lima merecía un espacio donde el café fuera el
-            protagonista absoluto.
+            Fundado en 2018 por un grupo de baristas con pasión por el origen, Café Ámbar nació con la
+            convicción de que Lima merecía un espacio donde el café fuera el protagonista absoluto.
           </p>
           <p>
-            Hoy somos un equipo de 12 personas comprometidas con la calidad en cada etapa:
-            desde la relación con el productor hasta el momento en que el cliente da su primer sorbo.
+            Hoy somos un equipo comprometido con la calidad en cada etapa, desde la relación con el
+            productor hasta el momento en que el cliente da su primer sorbo.
           </p>
-          <a href="#contacto" class="btn btn-primary" style="margin-top:1.5rem; display:inline-flex;">Visítanos</a>
+          <a href="#contacto" class="btn btn-primary about-cta">Visítanos</a>
         </div>
 
-        <!-- ASIDE — contenido complementario, semánticamente correcto -->
         <aside class="about-aside" aria-label="Datos destacados de Café Ámbar">
           <div class="stat-card">
             <span class="stat-number" aria-label="6 años de experiencia">6+</span>
@@ -452,16 +333,11 @@
             <span class="stat-label">Score SCA mínimo</span>
           </div>
         </aside>
-
       </div>
     </section>
 
-    <!-- ────────────────────────────────────────
-         SECCIÓN 6 · CONTACTO / CTA FINAL
-    ──────────────────────────────────────── -->
     <section id="contacto" class="section contact-section" aria-labelledby="contacto-heading">
       <div class="container contact-grid">
-
         <div class="contact-text">
           <span class="section-label" aria-hidden="true">Encuéntranos</span>
           <h2 id="contacto-heading">Ven a<br /><em>tomarte un café</em></h2>
@@ -469,7 +345,6 @@
         </div>
 
         <address class="contact-info" aria-label="Información de contacto y horarios">
-
           <div class="contact-block">
             <h3 class="contact-block-title">Dirección</h3>
             <p>Jr. de la Unión 456<br />Cercado de Lima, Lima 15001</p>
@@ -479,10 +354,12 @@
             <h3 class="contact-block-title">Horarios</h3>
             <dl class="horario-list">
               <div class="horario-row">
-                <dt>Lun — Vie</dt><dd>7:00 — 21:00</dd>
+                <dt>Lun - Vie</dt>
+                <dd>7:00 - 21:00</dd>
               </div>
               <div class="horario-row">
-                <dt>Sáb — Dom</dt><dd>8:00 — 22:00</dd>
+                <dt>Sáb - Dom</dt>
+                <dd>8:00 - 22:00</dd>
               </div>
             </dl>
           </div>
@@ -499,29 +376,39 @@
             <h3 class="contact-block-title">Síguenos</h3>
             <nav aria-label="Redes sociales">
               <ul class="social-list" role="list">
-                <li><a href="https://instagram.com/cafeambar" target="_blank" rel="noopener noreferrer"
-                    aria-label="Instagram de Café Ámbar (abre en nueva pestaña)">Instagram</a></li>
-                <li><a href="https://tiktok.com/@cafeambar" target="_blank" rel="noopener noreferrer"
-                    aria-label="TikTok de Café Ámbar (abre en nueva pestaña)">TikTok</a></li>
+                <li>
+                  <a
+                    href="https://instagram.com/cafeambar"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram de Café Ámbar (abre en nueva pestaña)"
+                  >
+                    Instagram
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://tiktok.com/@cafeambar"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="TikTok de Café Ámbar (abre en nueva pestaña)"
+                  >
+                    TikTok
+                  </a>
+                </li>
               </ul>
             </nav>
           </div>
-
         </address>
-
       </div>
     </section>
-
   </main>
 
-  <!-- ═══════════════════════════════════════════
-       FOOTER — contentinfo landmark
-  ═══════════════════════════════════════════ -->
   <footer class="site-footer" role="contentinfo">
     <div class="container footer-inner">
-      <p class="footer-brand">◈ Café Ámbar</p>
+      <p class="footer-brand">◆ Café Ámbar</p>
       <p class="footer-copy">
-        <small>© <time datetime="2025">2025</time> Café Ámbar · Lima, Perú · Todos los derechos reservados.</small>
+        <small>© <time datetime="2025">2025</time> Café Ámbar | Lima, Perú | Todos los derechos reservados.</small>
       </p>
       <nav aria-label="Navegación del pie de página">
         <ul class="footer-links" role="list">
@@ -535,5 +422,4 @@
 
   <script src="app.js"></script>
 </body>
-
 </html>
